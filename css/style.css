@@ -10,9 +10,13 @@ img {
 
 ul, li {
     list-style: none;
+    line-height: 30px;
+  
 }
 
+
 html{
+
     font-family: 'Balsamiq Sans', cursive;
 }
 
@@ -74,13 +78,18 @@ nav > span {
     background-color: #255EE9;
 }
 
-.button{
+button {
     padding: 8px;
     border-radius: 20px;
 }
 
 .black{
     background-color: #23272a;
+    color: white;
+
+}
+.button-violet{
+    background-color: rgb(172, 114, 172);
     color: white;
 }
 .row {
@@ -103,9 +112,6 @@ nav > span {
     max-width: 100%;
     min-height: 500px;
 }
-.items-center {
-	align-items: center;
-}
 
 .main-header .row {
 	align-items: center;
@@ -115,10 +121,21 @@ nav > span {
 .page-footer {
 	background-color: #23272a;
 	color: white;
+  
 }
 
 .section {
 	padding: 100px 0;
+}
+
+.footer-text{
+    font-size: 35px;
+    color: rgb(172, 114, 172);
+    
+}
+.list-title{
+    font-size: 20px;
+    color: rgb(172, 114, 172);
 }
 
 
@@ -128,6 +145,7 @@ nav > span {
 
 .col-33 {
 	flex-basis: calc(100% / 3);
+    
 }
 
 .col-40 {
@@ -145,25 +163,3 @@ nav > span {
 .bg-gray {
 	background-color: #d3d3d3;
 }
-****************
-
-.debug .main-header {
-	background-color: #add8e6;
-	padding: 20px 0;
-}
-
-
-.debug .page-footer {
-	padding: 20px 0;
-}
-
-
-.debug [class^='col'] {
-	border: 3px solid black;
-	padding: 5px 15px;
-}
-
-.debug main [class^='col'] {
-	min-height: 300px;
-}
-
