@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul, li {
+    list-style: none;
+}
+
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.container-header {
+    max-width: 100%;
+}
+
+.container-small {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.row-header {
+	display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: white;
+    align-items: center;
+}
+
+.main-header {
+    background-color: #255EE9;
+}
+
+.login{
+    padding: 6px;
+    border-radius: 20px;
+}
+  
+
+.container-nav{
+    background-color: #255EE9;  
+    
+}
+
+.row-nav{    
+    display: flex;  
+    max-width: 200px;
+    padding: 100px; 
+    justify-content: center;  
+    
+}
+
+.section {
+	padding: 50px 0;
+}
+
+.description-section {
+    background-image: url('../img/jumbo.png');
+
+}
+      
+
+.section-col-blu{
+    border: 2px dashed black;
+	padding: 100px;
+    background-color: rgb(42, 42, 234);
+    flex-basis: 60%;
+
+}
+.section-col-pink{
+    border: 2px dashed black;
+	padding: 100px;
+    background-color: pink;
+    flex-basis: 40%;
+    
+
+}
+
+.container-grey {
+    background-color: lightgray;
+}
+
+.row-section2 {
+    display: flex;
+	padding: 20px;
+    min-height: 400px;    
+    max-width: 1000px;
+    flex-direction: row-reverse;
+}
+
+.row-foot{    
+    display: flex;  
+    padding: 20px;
+    min-height: 800px;    
+    max-width: 1000px; 
+    justify-content: center;  
+    
+}
+
+.foot-col{
+    border: 2px dashed black;
+	padding: 100px 300px;
+    background-color: green;
+    flex-basis: 100%;
+}
+
+footer {
+    background-color: rgb(92, 92, 92);
+}
+.row-footer1 {    
+    display: flex;  
+    padding: 20px;
+    min-height: 800px;    
+    max-width: 1000px; 
+    justify-content: center;
+      
+}
+.footer1-col-big {
+    border: 2px dashed black;
+    background-color:pink;
+    flex-basis: calc(100%/3);
+    
+}
+.footer1-col {
+    border: 2px dashed black;
+    background-color:rgb(42, 42, 234);
+    flex-basis: calc(100%/6);
+}
+
+.row-footer2 {
+    display: flex;
+	padding: 20px 0;
+    justify-content: space-between;
+    max-width: 1000px;
+    background-color: aqua;
+}
+
+.footer2-col {
+    border: 2px dashed black;
+    padding: 10px;
+}
+
